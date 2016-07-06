@@ -54,6 +54,11 @@ nav ul, ul { list-style:none; }
   width: 50%;
   
 }
+section > p {
+  text-align: left;
+
+}
+
 .span2{
   width: 100%;
   margin-left: 0;
