@@ -1,5 +1,5 @@
 <!doctype html>  
-<html lang="en" class="no-js"> 
+<html> 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -8,61 +8,70 @@
  
   <link rel="shortcut icon" href="/favicon.ico">
  	<link rel="stylesheet" href="style.css">
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+ 
   
  
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
 
   <style type="text/css">
     img.port {
       box-shadow: 10px 10px 5px #888888;
     }
+    section.clearfix {
+      margin-top: 45px;
+      min-height: 100px;
+    }
 
   </style>
-
+ 
 </head>
-<script type="text/javascript">
- $('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
-    return false;
-});
 
-</script>
 
 <body class="cf">
-
-  <header class="clearfix">
-              <div class="container">
-              <div class="header-left">
-                <h1>NICOLAS J ORGIAS</h1>
-              </div>
-              <div class="header-right">
-                    <label for="open">
-                    <span class="hidden-desktop"></span>
-                    </label>
-                    <input type="checkbox" name="" id="open">
-              <nav>
+<div class="cont">
+<header class="clearfix">
+    <div class="container">
+      <div class="header-left">
+        <h1>NICOLAS J ORGIAS</h1>
+      </div>
+      <div class="header-right">
+        <label for="open">
+          <span class="hidden-desktop"></span>
+        </label>
+        <input type="checkbox" name="" id="open">
+        <nav>
                 <a href="#">Home</a>
                 
                 <a href="#myAnchor" rel="" id="anchor1" class="anchorLink">Portfolio</a>
                 <a href="#myAnchor2" rel="" id="anchor2" class="anchorLink">Interests</a>
                 <a href="#myAnchor3" rel="" id="anchor3" class="anchorLink">Contact</a>
-              </nav>
-              </div>
-            </div>
-        </header>
+        </nav>
+      </div>
+    </div>
+  </header>
+  </div class="cont">
+<section class="clearfix" style="width: 100%;">
+    <div class="container">
+      <div class="section-left">
+        <h1 class="section-title"></h1>
+        <h5 class="section-tagline"></h5>
+      </div>
+      
+    </div>
+  </section>
 
   <div id="container" class="cf">  
 
   	<article class="span1">
-				<section>
+				<div class="sect">
           <h1>Welcome to my Page!</h1>
           <br>
-          <p> I am a self taught front end web developer and music enthusiast who is also excited about mobile applications. Looking to increase my skills and learn back end too.</p>
+          <p> I am a Music enthusiast and front end web developer in training who is also excited about mobile applications. Looking to increase my skills and learn back end too.</p>
 
           <p>After working a number of jobs that were completely unrelated to any of my interests I decided to take it upon myself to start learning how to code. To this day it has probably been one of the best decisions of my life. On this website you will find links to my work as a front end web developer as well as some of my musical productions. For all inquiries feel free to reach out to me in the contact section. Thanks for stopping by and have a great day!</p>
-        </section>
+        </div>
      
 			</article>
 
@@ -88,7 +97,7 @@
       
      
       <article class="span1" id="one">
-      <a name="myAnchor2" id="myAnchor2"><h1 class="soTired">Hobbies & Interests</h1></a>
+      <a name="myAnchor2" id="anchor2"><h1 class="soTired">Hobbies & Interests</h1></a>
         <h1 class="soTired">Hobbies & Interests</h1>
         <img id="Pic" src="images/collage2.png" style="width: 100%;" height="auto">
           
@@ -143,7 +152,7 @@
     &copy 2016 - Nicolas J Orgias - Dynamic Web Development
   </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
+
 </body>
 </html>
 
