@@ -1,3 +1,4 @@
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -127,7 +128,7 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 25px;
   position: fixed;
   bottom: 0px;
   width: 100%;
@@ -149,6 +150,7 @@ div.sect {
   margin-left: 25%;
   font-size: 23px;
   margin-top: 20%;
+  margin-bottom: 10%;
 
 
 }
@@ -163,7 +165,7 @@ header {
     -webkit-transform: translateZ(0);
 }
 
-
+#
 
 /* NAVIGATION */
 
@@ -732,10 +734,5 @@ img {
   padding: 10px;
   margin-top: 50px;
 }
-
-#two {
-  bottom: 50%;
-}
-
 
 
